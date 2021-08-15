@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/global.css">
+	<link rel="stylesheet" href="./css/auth.css">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<h1 class="header">Register</h1>
+		<p style="height: 18px; font-size: 20px;" id="message"></p>
+		<form id="form">
+			<input class="username" id="usernameInput" type="text" placeholder="username" required >
+			<input class="pass" id="passwordInput" type="password" placeholder="password" required >
+			<input class="username" id="contactInput" type="tel" placeholder="phone" required >
+			<input class="username" id="ageInput" type="number" placeholder="age" required >
+			<select class="username" id="genderInput">
+				<option value="1">male</option>
+				<option value="2">female</option>
+			</select>
+			<button class="btn-log" type="submit">Register</button>
+		</form>
+		<span class="sing-up">Have an account? <a href="./login">Login</a> here</span>
+	</div>
+
+<script src="./js/request.js"></script>  
+<script src="./js/register.js"></script>
+</body>
+</html>  

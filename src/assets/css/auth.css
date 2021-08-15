@@ -1,0 +1,72 @@
+body {
+	background-color: #062631;
+	font-family: sans-serif
+}
+
+div {
+	width:  550px;
+	border-radius: 12px;
+	padding: 30px;
+	/* box-shadow: 0 0 15px 1px rgba(0,0,0,0.5); */
+	background-color: #fff;
+
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+input, select {
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.sub-button {
+	border-radius: 100px;
+	background-color: #ffff;
+}
+
+.header {
+	margin-top: 0px;
+	font-family: sans-serif;
+	font-size: 52px;
+	font-weight: bold;
+	
+}
+
+.username {
+	padding: 15px;
+	border-radius: 5px;
+	border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.pass {
+	padding: 15px;
+	border-radius: 5px;
+	border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.btn-log {
+	padding: 20px;
+	font-weight: 500;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #2abfd6;
+	color: #fff;
+}
+
+.sing-up {
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+
+	
+}
+
