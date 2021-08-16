@@ -1,4 +1,4 @@
-let host = 'http://localhost:4000'
+let host = 'https://my-backend-chat.herokuapp.com/'
 async function request (path, method, body, token) {
 	let headers =  {
 		'Content-Type': 'application/json',
